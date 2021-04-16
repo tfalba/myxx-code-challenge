@@ -3,40 +3,50 @@
 
 # Myxx Coding Challenge
 
-Your goal is to deliver a single-page web application that utilizes the SpaceX API to showcase details regarding following 4 SpaceX rockets: 
+## The Goal
 
-* Falcon 1
-* Falcon 9
-* Falcon Heavy
-* Starship
+Your goal is to deliver a single-page web application based on the designer mockups below that utilizes the SpaceX API to showcase details regarding the following 4 SpaceX rockets: 
+
+* *Falcon 1*
+* *Falcon 9*
+* *Falcon Heavy*
+* *Starship*
 
 ![](https://user-images.githubusercontent.com/3980464/114952973-662aed80-9e25-11eb-8fd9-f5a120813e5e.png)
-The application will be a single web page displaying all 4 rockets. When a user clicks on a rocket, a modal will appear with the details about that respective rocket. To close the modal, a user will press the `x` in the top left hand corner. 
 
-If wishing to go the extra mile and want to make the application mobile responsive, the rockets should be displayed 1 at a time as a carousel. The user can tap the left and right carrot icons in the carousel to toggle back and forth between rockets. 
+**Notes**: When the user clicks on a rocket, a modal will appear with the details about that respective rocket. To close the modal, the user will press the `x` in the top left hand corner. 
 
-This exercise should take a couple of hours. If you have time or want to spend additional time on the exercise, we would love to see the following:
+## Resources
+
+You will find all asset files in the `public` folder in the repository
+
+The documentation for the SpaceX API you will be using is located [here](https://github.com/r-spacex/SpaceX-API/blob/master/docs/v4/README.md)
+
+## Completing the Challenge
+
+This exercise should take a couple of hours.
+
+To complete this challenge, please either submit a PR to this repository with your code, or provide a link to a repository where we can view the code. If you have published the code to Heroku or another hosting service, please provide that link as well. 
+
+## Extra Credit
+If you have time or want to spend additional time on the exercise, we would love to see the following:
 
 * CSS Animations
 * Testing
 * Documentation
+* Published (*Heroku, DigitalOcean, etc.*)
 * Mobile responsiveness
-* Published (Heroku, DigitalOcean, etc.)
+  *  *The rockets should be displayed one at a time as a carousel. The user can tap the left and right carrot icons in the carousel to toggle back and forth between rockets*
 
- Things to Consider:
-* Instrumentation
-* User tracking
-* Performance
-* Security
 
-The documentation for the SpaceX API you will be using is located [here](https://github.com/r-spacex/SpaceX-API/blob/master/docs/v4/README.md).
+##  Things to Consider
+* *How would you instrument the application to track page performance? Errors?*
+* *Is there anything to worry about in regards to security?*
+* *What are the pitfalls of using a 3rd party API?*
 
-### Tech Stack
+## Getting Started
 
-This project uses the `create-react-app` tool to scaffold a [React](https://reactjs.org/) application with [Material UI](https://material-ui.com/). You do not necessarily have to use this, but we would prefer that you do.
-
-# Getting Started 
-
+This project uses the `create-react-app` tool to scaffold a [React](https://reactjs.org/) application with [Material UI](https://material-ui.com/).  If you wish to use another front-end framework, please feel free.
 
 ### `npm start`
 
