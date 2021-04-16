@@ -1,7 +1,7 @@
 
 
 
-# Myxx Coding Challenge
+# Myxx Code Challenge
 
 ## The Goal
 
@@ -20,7 +20,7 @@ Your goal is to deliver a single-page web application based on the designer mock
 
 You will find all asset files in the `public` folder in the repository
 
-The documentation for the SpaceX API you will be using is located [here](https://github.com/r-spacex/SpaceX-API/blob/master/docs/v4/README.md)
+The documentation for the SpaceX API is located [here](https://github.com/r-spacex/SpaceX-API/blob/master/docs/v4/README.md)
 
 ## Completing the Challenge
 
@@ -29,14 +29,15 @@ This exercise should take a couple of hours.
 To complete this challenge, please either submit a PR to this repository with your code, or provide a link to a repository where we can view the code. If you have published the code to Heroku or another hosting service, please provide that link as well. 
 
 ## Extra Credit
-If you have time or want to spend additional time on the exercise, we would love to see the following:
+These are not mandatory, but if you want to spend additional time on the exercise, we would love to see the following:
 
-* CSS Animations
+* CSS animations
 * Testing
 * Documentation
 * Published (*Heroku, DigitalOcean, etc.*)
 * Mobile responsiveness
   *  *The rockets should be displayed one at a time as a carousel. The user can tap the left and right carrot icons in the carousel to toggle back and forth between rockets*
+  *  View the mockups for the mobile site  [here](https://user-images.githubusercontent.com/3980464/114960324-cbd2a600-9e34-11eb-9481-7d9b54b7d847.png) (*carousel*) and [here](https://user-images.githubusercontent.com/3980464/114960356-d9882b80-9e34-11eb-88da-7b5921291521.png) (*modal*)
 
 
 ##  Things to Consider
