@@ -13,7 +13,7 @@ const MobileVersion = ({ spaceX, rocketSummary, rocket, show, showModal, rocketS
               {rocketSummary.map((rocket, idx) =>
                 <div key={idx} className='rocket-box-mobile'>
                   <p className='rocket-label' onClick={() => showModal(rocket.name)}>{rocket.name}</p>
-                  <img onClick={() => showModal(rocket.name)} width={`${rocket.imageWidth}`} src={rocket.image} alt={rocket.name} />
+                  <img onClick={() => showModal(rocket.name)} height={`${2 * rocket.imageWidth}`} width={`${rocket.imageWidth}`} src={rocket.image} alt={rocket.name} />
                 </div>
               )}
             </div>
