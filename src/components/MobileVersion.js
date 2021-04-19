@@ -5,8 +5,7 @@ const MobileVersion = ({ spaceX, rocketSummary, rocket, show, showModal, rocketS
         <div style={{ backgroundColor: 'black' }} className='body'>
           <div className='app-container-mobile'>
             <header className='app-banner-mobile'>
-              <img width='200px' src={spaceX} alt='SpaceX' />
-              <button className='nav-button-mobile'>Vehicles</button>
+              <img width='150px' src={spaceX} alt='SpaceX' />
             </header>
             <div className='title-mobile'>Vehicles</div>
             <div className='sub-title-mobile'>Rockets that are shown below were created by SpaceX. Proportions between rockets are somewhat accurate. Click on a rocket to learn more.</div>
@@ -27,8 +26,7 @@ const MobileVersion = ({ spaceX, rocketSummary, rocket, show, showModal, rocketS
           <div className='modal-container-mobile'>
             <div onClick={hideModal} className='close-icon-mobile'>x</div>
             <header className='app-banner-mobile'>
-              <img width='250px' src={spaceX} alt='SpaceX' />
-              <button onClick={hideModal} className='nav-button-modal-mobile'>Vehicles</button>
+              <img width='150px' src={spaceX} alt='SpaceX' />
             </header>
             <div className='rocket-container-modal-mobile'>
               <div className='image-container-mobile'>
