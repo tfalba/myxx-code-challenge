@@ -7,10 +7,11 @@ const rocketSummary =
   [{
     name: 'Falcon 1',
     image: falcon1,
-    imageWidth: '30px'
+    imageWidth: '30px',
+    imageHeight: '90px'
   },
-  { name: 'Falcon 9', image: falcon9, imageWidth: '60px' },
-  { name: 'Falcon Heavy', image: falconHeavy, imageWidth: '58px' },
-  { name: 'Starship', image: starship, imageWidth: '90px' }]
+  { name: 'Falcon 9', image: falcon9, imageWidth: '60px', imageHeight: '180px' },
+  { name: 'Falcon Heavy', image: falconHeavy, imageWidth: '58px', imageHeight: '174px' },
+  { name: 'Starship', image: starship, imageWidth: '90px', imageHeight: '270px' }]
 
 export default rocketSummary
